@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "client",
+    "slug": "burger",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "04d1f80f-49a7-4c5a-8cd9-7d66da801288"
+      }
+    },
+    "owner": "antonyaneric",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/04d1f80f-49a7-4c5a-8cd9-7d66da801288"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysWhenInUsePermission": "Allow Menu to use your location"
+        }
+      ]
+    ]
+  }
+}
